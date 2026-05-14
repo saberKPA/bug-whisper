@@ -1,10 +1,12 @@
 import { createContext, useContext, useEffect, useState, ReactNode } from "react";
 import { translations, type Lang } from "@/i18n/translations";
 
+type Dict = (typeof translations)["en"];
+
 interface LanguageContextType {
   lang: Lang;
   setLang: (l: Lang) => void;
-  t: (typeof translations)["en"];
+  t: Dict;
 }
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
@@ -26,7 +28,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
   };
 
   return (
-    <LanguageContext.Provider value={{ lang, setLang, t: translations[lang] }}>
+    <LanguageContext.Provider value={{ lang, setLang, t: translations[lang] as Dict }}>
       {children}
     </LanguageContext.Provider>
   );

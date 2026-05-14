@@ -88,7 +88,7 @@ export const translations = {
       eyebrow: "Team",
       title: "ENGINEERS, OPERATORS, AND DATA NERDS.",
       members: [
-        { name: "DANIEL KURI", role: "CEO & Co-Founder", bio: "10+ years building data platforms." },
+        { name: "THOMAS KURI", role: "CEO & Co-Founder", bio: "Driving the vision, operation, and long-term growth of SABER" },
         { name: "Founder Name", role: "CTO & Co-Founder", bio: "Ex-staff engineer, distributed systems." },
         { name: "Team Member", role: "STRATEGIC ADVISOR & CO-FOUNDER", bio: "Supporting strategic planning and high level business direction" },
       ],
@@ -191,7 +191,7 @@ export const translations = {
       eyebrow: "Equipo",
       title: "INGENIEROS, OPERADORES Y FANÁTICOS DE LOS DATOS.",
       members: [
-        { name: "DANIEL KURI", role: "CEO y Co-Fundador", bio: "Más de 10 años construyendo plataformas de datos." },
+        { name: "THOMAS KURI", role: "CEO y Co-Fundador", bio: "Impulsando la visión, operación y crecimiento a largo plazo de SABER" },
         { name: "Nombre Fundador", role: "CTO y Co-Fundador", bio: "Ex-staff engineer, sistemas distribuidos." },
         { name: "Miembro del Equipo", role: "ASESOR ESTRATÉGICO Y CO-FUNDADOR", bio: "Apoyando la planificación estratégica y la dirección de negocios de alto nivel" },
       ],

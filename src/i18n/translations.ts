@@ -19,7 +19,7 @@ export const translations = {
     },
     services: {
       eyebrow: "What we do",
-      title: "End-to-end data pipelines.",
+      title: "Real solutions. End-to-end",
       items: [
         {
           code: "01",
@@ -122,7 +122,7 @@ export const translations = {
     },
     services: {
       eyebrow: "Qué hacemos",
-      title: "Pipelines de datos de extremo a extremo.",
+      title: "Soluciones reales. De extremo a extremo",
       items: [
         {
           code: "01",

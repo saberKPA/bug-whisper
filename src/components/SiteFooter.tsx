@@ -1,4 +1,4 @@
-import { StackedLogo } from "./StackedLogo";
+import { SaberLogo } from "./SaberLogo";
 import { LanguageToggle } from "./LanguageToggle";
 import { ThemeToggle } from "./ThemeToggle";
 import { useLanguage } from "@/contexts/LanguageContext";
@@ -10,7 +10,7 @@ export function SiteFooter() {
     <footer className="border-t border-border mt-24">
       <div className="mx-auto max-w-[1280px] px-5 md:px-8 py-10 grid gap-8 md:grid-cols-3 items-start">
         <div className="flex items-center gap-2.5">
-          <StackedLogo size={20} />
+          <SaberLogo variant="mark" size={28} />
           <div>
             <div className="font-mono font-bold uppercase tracking-[0.18em] text-[14px]">SABER</div>
             <div className="font-mono text-[11px] uppercase tracking-[0.12em] text-muted-foreground mt-0.5">

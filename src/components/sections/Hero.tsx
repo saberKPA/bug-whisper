@@ -1,6 +1,6 @@
 import { useLanguage } from "@/contexts/LanguageContext";
 import { ArrowRight } from "lucide-react";
-import { StackedLogo } from "../StackedLogo";
+import { SaberLogo } from "../SaberLogo";
 
 export function Hero() {
   const { t } = useLanguage();
@@ -57,8 +57,8 @@ export function Hero() {
         </div>
 
         {/* Big watermark logo */}
-        <div className="hidden lg:block absolute right-8 top-1/2 -translate-y-1/2 opacity-[0.06]">
-          <StackedLogo size={420} />
+        <div className="hidden lg:block absolute right-8 top-1/2 -translate-y-1/2 opacity-[0.08] pointer-events-none">
+          <SaberLogo variant="mark" size={460} />
         </div>
       </div>
     </section>

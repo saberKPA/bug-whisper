@@ -86,10 +86,10 @@ export const translations = {
     },
     team: {
       eyebrow: "Team",
-      title: "ENGINEERS, OPERATORS, AND DATA NERDS.",
+      title: "FOUNDERS",
       members: [
         { name: "THOMAS KURI", role: "CEO & Co-Founder", bio: "Driving the vision, operation, and long-term growth of SABER" },
-        { name: "Founder Name", role: "CTO & Co-Founder", bio: "Ex-staff engineer, distributed systems." },
+        { name: "SEBASTIAN PERILLA", role: "CTO & Co-Founder", bio: "Driving SABER's vision, operation, and long-term growth" },
         { name: "Team Member", role: "STRATEGIC ADVISOR & CO-FOUNDER", bio: "Supporting strategic planning and high level business direction" },
       ],
     },
@@ -189,10 +189,10 @@ export const translations = {
     },
     team: {
       eyebrow: "Equipo",
-      title: "INGENIEROS, OPERADORES Y FANÁTICOS DE LOS DATOS.",
+      title: "FUNDADORES",
       members: [
         { name: "THOMAS KURI", role: "CEO y Co-Fundador", bio: "Impulsando la visión, operación y crecimiento a largo plazo de SABER" },
-        { name: "Nombre Fundador", role: "CTO y Co-Fundador", bio: "Ex-staff engineer, sistemas distribuidos." },
+        { name: "SEBASTIAN PERILLA", role: "CTO y Co-Fundador", bio: "Impulsando la visión, operación y crecimiento a largo plazo de SABER" },
         { name: "Miembro del Equipo", role: "ASESOR ESTRATÉGICO Y CO-FUNDADOR", bio: "Apoyando la planificación estratégica y la dirección de negocios de alto nivel" },
       ],
     },

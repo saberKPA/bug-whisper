@@ -8,7 +8,7 @@ export function Team() {
     <section id="team" className="border-b border-border">
       <div className="mx-auto max-w-[1280px] px-5 md:px-8 py-20 md:py-28">
         <SectionHeading eyebrow={t.team.eyebrow} title={t.team.title} />
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 border-t border-l border-border">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 border-t border-l border-border">
           {t.team.members.map((m, i) => (
             <div key={i} className="border-b border-r border-border p-6">
               <div className="aspect-square border border-border bg-muted/30 flex items-center justify-center mb-4 relative overflow-hidden">

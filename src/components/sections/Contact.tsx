@@ -17,7 +17,7 @@ export function Contact() {
           {t.contact.body}
         </p>
         <a
-          href={`mailto:${t.contact.cta}`}
+          href={`mailto:${t.contact.email}`}
           className="group mt-10 inline-flex items-center gap-3 border border-background/40 px-6 py-4 font-mono text-[14px] uppercase tracking-[0.14em] hover:bg-background hover:text-foreground transition-colors"
         >
           {t.contact.cta}

@@ -10,10 +10,10 @@ export const translations = {
       contact: "Contact",
     },
     hero: {
-      eyebrow: "ETL · Data Infrastructure",
-      title: "Turning information into advantage.",
+      eyebrow: "DATA INFRASTRUCTURE",
+      title: "TURNING INFORMATION INTO ADVANTAGE",
       subtitle:
-        "SABER transforms messy, scattered data into structured, real-time insight — so your team makes the right decisions, faster.",
+        "SABER transforms messy, scattered data into structured, real-time insight so your team makes the right decisions, faster.",
       cta: "Talk to us",
       secondary: "See what we do",
     },
@@ -88,9 +88,9 @@ export const translations = {
       eyebrow: "Team",
       title: "Engineers, operators, and data nerds.",
       members: [
-        { name: "Founder Name", role: "CEO & Co-Founder", bio: "10+ years building data platforms." },
+        { name: "DANIEL KURI", role: "CEO & Co-Founder", bio: "10+ years building data platforms." },
         { name: "Founder Name", role: "CTO & Co-Founder", bio: "Ex-staff engineer, distributed systems." },
-        { name: "Team Member", role: "Head of Engineering", bio: "Loves clean schemas and clean code." },
+        { name: "Team Member", role: "CO-FOUNDER", bio: "Loves clean schemas and clean code." },
         { name: "Team Member", role: "Data Architect", bio: "Modeling complex domains since forever." },
       ],
     },
@@ -101,7 +101,7 @@ export const translations = {
       cta: "hello@saberetl.com",
     },
     footer: {
-      tagline: "Turning information into advantage.",
+      tagline: "TURNING INFORMATION INTO ADVANTAGE",
       rights: "All rights reserved.",
     },
   },
@@ -114,10 +114,10 @@ export const translations = {
       contact: "Contacto",
     },
     hero: {
-      eyebrow: "ETL · Infraestructura de Datos",
-      title: "Convirtiendo información en ventaja.",
+      eyebrow: "INFRAESTRUCTURA DE DATOS",
+      title: "CONVIRTIENDO INFORMACIÓN EN VENTAJA",
       subtitle:
-        "SABER transforma datos dispersos y desordenados en información estructurada y en tiempo real — para que tu equipo tome las decisiones correctas, más rápido.",
+        "SABER transforma datos dispersos y desordenados en información estructurada y en tiempo real para que tu equipo tome las decisiones correctas, más rápido.",
       cta: "Hablemos",
       secondary: "Conoce nuestros servicios",
     },
@@ -192,9 +192,9 @@ export const translations = {
       eyebrow: "Equipo",
       title: "Ingenieros, operadores y fanáticos de los datos.",
       members: [
-        { name: "Nombre Fundador", role: "CEO y Co-Fundador", bio: "Más de 10 años construyendo plataformas de datos." },
+        { name: "DANIEL KURI", role: "CEO y Co-Fundador", bio: "Más de 10 años construyendo plataformas de datos." },
         { name: "Nombre Fundador", role: "CTO y Co-Fundador", bio: "Ex-staff engineer, sistemas distribuidos." },
-        { name: "Miembro del Equipo", role: "Head of Engineering", bio: "Ama los schemas y el código limpio." },
+        { name: "Miembro del Equipo", role: "CO-FOUNDER", bio: "Ama los schemas y el código limpio." },
         { name: "Miembro del Equipo", role: "Arquitecto de Datos", bio: "Modelando dominios complejos desde siempre." },
       ],
     },
@@ -205,7 +205,7 @@ export const translations = {
       cta: "hello@saberetl.com",
     },
     footer: {
-      tagline: "Convirtiendo información en ventaja.",
+      tagline: "CONVIRTIENDO INFORMACIÓN EN VENTAJA",
       rights: "Todos los derechos reservados.",
     },
   },

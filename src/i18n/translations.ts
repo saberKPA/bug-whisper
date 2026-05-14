@@ -89,7 +89,7 @@ export const translations = {
       title: "FOUNDERS",
       members: [
         { name: "THOMAS KURI", role: "CEO & Co-Founder", bio: "Driving SABER's vision, operation, and long-term growth" },
-        { name: "SEBASTIAN PERILLA", role: "CTO & Co-Founder", bio: "Driving SABER's vision, operation, and long-term growth" },
+        { name: "SEBASTIAN PERILLA", role: "CTO & Co-Founder", bio: "Leading the technical development and infrastructure of SABER" },
         { name: "DANIEL KURI", role: "STRATEGIC ADVISOR & CO-FOUNDER", bio: "Supporting strategic planning and high level business direction" },
       ],
     },
@@ -192,7 +192,7 @@ export const translations = {
       title: "FUNDADORES",
       members: [
         { name: "THOMAS KURI", role: "CEO y Co-Fundador", bio: "Impulsando la visión, operación y crecimiento a largo plazo de SABER" },
-        { name: "SEBASTIAN PERILLA", role: "CTO y Co-Fundador", bio: "Impulsando la visión, operación y crecimiento a largo plazo de SABER" },
+        { name: "SEBASTIAN PERILLA", role: "CTO y Co-Fundador", bio: "Liderando el desarrollo técnico y la infraestructura de SABER" },
         { name: "DANIEL KURI", role: "ASESOR ESTRATÉGICO Y CO-FUNDADOR", bio: "Apoyando la planificación estratégica y la dirección de negocios de alto nivel" },
       ],
     },

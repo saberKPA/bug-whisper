@@ -1,29 +1,25 @@
 import { useLanguage } from "@/contexts/LanguageContext";
 import { ArrowRight } from "lucide-react";
 import { SaberLogo } from "../SaberLogo";
-import { StarryDots } from "../StarryDots";
 
 export function Hero() {
   const { t } = useLanguage();
   return (
     <section id="top" className="relative border-b border-border overflow-hidden">
-      {/* Animated scattered dot / starry grid */}
-      <StarryDots className="opacity-70" />
-
-      {/* Soft radial vignette to focus the eye on content */}
+      {/* Grid background */}
       <div
         aria-hidden
-        className="absolute inset-0 pointer-events-none"
+        className="absolute inset-0 opacity-[0.07] pointer-events-none"
         style={{
-          background:
-            "radial-gradient(ellipse at 30% 40%, transparent 0%, transparent 35%, hsl(var(--background) / 0.55) 80%)",
+          backgroundImage:
+            "linear-gradient(to right, hsl(var(--foreground)) 1px, transparent 1px), linear-gradient(to bottom, hsl(var(--foreground)) 1px, transparent 1px)",
+          backgroundSize: "56px 56px",
         }}
       />
-
-      {/* Subtle scan lines retained for texture */}
+      {/* Scan lines */}
       <div
         aria-hidden
-        className="absolute inset-0 opacity-[0.03] pointer-events-none"
+        className="absolute inset-0 opacity-[0.04] pointer-events-none"
         style={{
           backgroundImage:
             "repeating-linear-gradient(0deg, hsl(var(--foreground)) 0 1px, transparent 1px 4px)",

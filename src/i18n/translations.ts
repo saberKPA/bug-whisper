@@ -97,7 +97,7 @@ export const translations = {
       eyebrow: "Contact",
       title: "Ready to see your data clearly?",
       body: "Tell us about your stack and your goals. We'll respond within one business day.",
-      cta: "EMAIL US WITH YOUR CHALLENGES",
+      cta: "CONTACT US",
       email: "Tkuri@saberetl.com",
     },
     footer: {
@@ -201,7 +201,7 @@ export const translations = {
       eyebrow: "Contacto",
       title: "¿Listo para ver tus datos con claridad?",
       body: "Cuéntanos sobre tu stack y tus objetivos. Respondemos en un día hábil.",
-      cta: "ESCRÍBENOS CON TUS DESAFÍOS",
+      cta: "CONTÁCTANOS",
       email: "Tkuri@saberetl.com",
     },
     footer: {

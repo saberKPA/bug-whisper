@@ -194,7 +194,6 @@ export const translations = {
         { name: "DANIEL KURI", role: "CEO y Co-Fundador", bio: "Más de 10 años construyendo plataformas de datos." },
         { name: "Nombre Fundador", role: "CTO y Co-Fundador", bio: "Ex-staff engineer, sistemas distribuidos." },
         { name: "Miembro del Equipo", role: "ASESOR ESTRATÉGICO Y CO-FUNDADOR", bio: "Apoyando la planificación estratégica y la dirección de negocios de alto nivel" },
-        { name: "Miembro del Equipo", role: "Arquitecto de Datos", bio: "Modelando dominios complejos desde siempre." },
       ],
     },
     contact: {

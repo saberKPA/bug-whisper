@@ -1,6 +1,6 @@
 import { useLanguage } from "@/contexts/LanguageContext";
 import { SectionHeading } from "./SectionHeading";
-import { StackedLogo } from "../StackedLogo";
+import { SaberLogo } from "../SaberLogo";
 
 export function About() {
   const { t } = useLanguage();
@@ -23,7 +23,7 @@ export function About() {
               backgroundSize: "32px 32px",
             }}
           />
-          <StackedLogo size={220} />
+          <SaberLogo variant="mark" size={240} />
           <div className="absolute bottom-3 left-3 font-mono text-[10px] uppercase tracking-[0.18em] text-muted-foreground">
             SABER · CORE
           </div>

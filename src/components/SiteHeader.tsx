@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
-import { StackedLogo } from "./StackedLogo";
+import { SaberLogo } from "./SaberLogo";
 import { LanguageToggle } from "./LanguageToggle";
 import { ThemeToggle } from "./ThemeToggle";
 import { useLanguage } from "@/contexts/LanguageContext";
@@ -34,9 +34,9 @@ export function SiteHeader() {
       )}
     >
       <div className="mx-auto max-w-[1280px] px-5 md:px-8 h-14 flex items-center justify-between">
-        <a href="#top" className="flex items-center gap-2.5 group">
-          <StackedLogo size={18} />
-          <span className="font-mono font-bold uppercase tracking-[0.18em] text-[14px]">SABER</span>
+        <a href="#top" className="flex items-center gap-2.5 group" aria-label="SABER home">
+          <SaberLogo variant="mark" size={26} />
+          <span className="font-mono font-bold uppercase tracking-[0.18em] text-[15px]">SABER</span>
         </a>
 
         <nav className="hidden md:flex items-center gap-7">

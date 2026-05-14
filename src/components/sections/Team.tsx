@@ -1,6 +1,6 @@
 import { useLanguage } from "@/contexts/LanguageContext";
 import { SectionHeading } from "./SectionHeading";
-import { StackedLogo } from "../StackedLogo";
+import { SaberLogo } from "../SaberLogo";
 
 export function Team() {
   const { t } = useLanguage();
@@ -21,7 +21,7 @@ export function Team() {
                     backgroundSize: "20px 20px",
                   }}
                 />
-                <StackedLogo size={56} />
+                <SaberLogo variant="mark" size={64} />
               </div>
               <div className="font-mono text-[11px] uppercase tracking-[0.18em] text-muted-foreground">
                 {String(i + 1).padStart(2, "0")}

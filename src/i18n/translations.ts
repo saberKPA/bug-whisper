@@ -115,7 +115,7 @@ export const translations = {
     },
     hero: {
       eyebrow: "ETL · Infraestructura de Datos",
-      title: "Convierte la información en ventaja.",
+      title: "Convirtiendo información en ventaja.",
       subtitle:
         "SABER transforma datos dispersos y desordenados en información estructurada y en tiempo real — para que tu equipo tome las decisiones correctas, más rápido.",
       cta: "Hablemos",
@@ -202,10 +202,10 @@ export const translations = {
       eyebrow: "Contacto",
       title: "¿Listo para ver tus datos con claridad?",
       body: "Cuéntanos sobre tu stack y tus objetivos. Respondemos en un día hábil.",
-      cta: "hello@saber.io",
+      cta: "hello@saberetl.com",
     },
     footer: {
-      tagline: "Información en ventaja.",
+      tagline: "Convirtiendo información en ventaja.",
       rights: "Todos los derechos reservados.",
     },
   },

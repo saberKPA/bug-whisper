@@ -45,8 +45,8 @@ export function Team() {
               </div>
               <p className="mt-3 text-[13px] leading-[1.55] text-muted-foreground">{m.bio}</p>
             </div>
-            </div>
             );
+          })}
           })}
         </div>
       </div>

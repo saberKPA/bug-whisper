@@ -24,7 +24,7 @@ export const translations = {
         {
           code: "01",
           title: "Extract",
-          body: "Pull data from any source — databases, SaaS APIs, files, streams. We handle the messy parts.",
+          body: "Deliver to your data warehouses, lakes, or apps. Real-time or batch, your call.",
         },
         {
           code: "02",
@@ -45,14 +45,14 @@ export const translations = {
     },
     industries: {
       eyebrow: "Industries",
-      title: "Built for teams that run on data.",
+      title: "CLEAR DATA, BETTER DECISIONS.",
       items: [
-        { name: "Fintech", body: "Reconciliation, risk, and reporting at the speed of regulation." },
+        { name: "Healthcare & Wellness", body: "Reconciliation, risk, and reporting at the speed of regulation." },
         { name: "Retail", body: "Unify POS, e-commerce, and inventory into one truth." },
         { name: "Healthcare", body: "HIPAA-aware pipelines for clinical and operational data." },
         { name: "Logistics", body: "Track shipments, fleets, and SLAs in real time." },
         { name: "SaaS", body: "Product analytics and revenue ops without the duct tape." },
-        { name: "Manufacturing", body: "From sensor to insight — IoT data that drives action." },
+        { name: "Manufacturing", body: "HIPAA-aware pipelines for clinical practices.\nOperational and client data in one place." },
       ],
     },
     testimonials: {
@@ -82,7 +82,7 @@ export const translations = {
     about: {
       eyebrow: "About",
       title: "We believe good decisions start with good data.",
-      body: "SABER was founded to close the gap between raw information and business advantage. We build the infrastructure that turns data chaos into a reliable, real-time view of your company — so leaders stop guessing and start operating with clarity.",
+      body: "SABER was founded to close the gap between raw information and business advantage. We build the infrastructure that turns data chaos into a reliable, real-time view of your company. We help you become a leader that stops guessing and starts operating with clarity.",
     },
     team: {
       eyebrow: "Team",
@@ -90,7 +90,7 @@ export const translations = {
       members: [
         { name: "THOMAS KURI", role: "CEO & Co-Founder", bio: "Driving SABER's vision, operation, and long-term growth" },
         { name: "SEBASTIAN PERILLA", role: "CTO & Co-Founder", bio: "Leading the technical development and infrastructure of SABER" },
-        { name: "DANIEL KURI", role: "STRATEGIC ADVISOR & CO-FOUNDER", bio: "Supporting strategic planning and high level business direction" },
+        { name: "DANIEL KURI", role: "CO-FOUNDER", bio: "Supporting strategic planning and high level business direction" },
       ],
     },
     contact: {
@@ -149,7 +149,7 @@ export const translations = {
     },
     industries: {
       eyebrow: "Industrias",
-      title: "Hecho para equipos que operan con datos.",
+      title: "DATOS CLAROS, MEJORES DECISIONES.",
       items: [
         { name: "Fintech", body: "Reconciliación, riesgo y reportes a la velocidad de la regulación." },
         { name: "Retail", body: "Unifica POS, e-commerce e inventario en una sola fuente de verdad." },
@@ -194,7 +194,7 @@ export const translations = {
       members: [
         { name: "THOMAS KURI", role: "CEO y Co-Fundador", bio: "Impulsando la visión, operación y crecimiento a largo plazo de SABER" },
         { name: "SEBASTIAN PERILLA", role: "CTO y Co-Fundador", bio: "Liderando el desarrollo técnico y la infraestructura de SABER" },
-        { name: "DANIEL KURI", role: "ASESOR ESTRATÉGICO Y CO-FUNDADOR", bio: "Apoyando la planificación estratégica y la dirección de negocios de alto nivel" },
+        { name: "DANIEL KURI", role: "CO-FUNDADOR", bio: "Apoyando la planificación estratégica y la dirección de negocios de alto nivel" },
       ],
     },
     contact: {

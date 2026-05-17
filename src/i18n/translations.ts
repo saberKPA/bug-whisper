@@ -34,7 +34,7 @@ export const translations = {
         {
           code: "03",
           title: "Load",
-          body: "Deliver to warehouses, lakes, or apps. Real-time or batch — your call.",
+          body: "Deliver to warehouses, lakes, or apps. Real-time or batch, your call.",
         },
         {
           code: "04",
@@ -138,7 +138,7 @@ export const translations = {
         {
           code: "03",
           title: "Cargar",
-          body: "Entregamos a warehouses, lakes o aplicaciones. En tiempo real o por lotes — tú decides.",
+          body: "Entregamos a warehouses, lakes o aplicaciones. En tiempo real o por lotes, tú decides.",
         },
         {
           code: "04",

@@ -88,7 +88,7 @@ export const translations = {
       eyebrow: "Team",
       title: "FOUNDERS",
       members: [
-        { name: "THOMAS KURI", role: "CEO & Co-Founder", bio: "Driving SABER's vision, operation, and long-term growth" },
+        { name: "THOMAS KURI", role: "CEO & Co-Founder", bio: "Driving SABER's vision, operation, and long-term growth", image: "/src/assets/team-tommy.jpg" },
         { name: "SEBASTIAN PERILLA", role: "CTO & Co-Founder", bio: "Leading the technical development and infrastructure of SABER" },
         { name: "DANIEL KURI", role: "CO-FOUNDER", bio: "Supporting strategic planning and high level business direction" },
       ],

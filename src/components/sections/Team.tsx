@@ -47,7 +47,6 @@ export function Team() {
             </div>
             );
           })}
-          })}
         </div>
       </div>
     </section>

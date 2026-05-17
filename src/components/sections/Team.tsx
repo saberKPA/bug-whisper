@@ -1,6 +1,11 @@
 import { useLanguage } from "@/contexts/LanguageContext";
 import { SectionHeading } from "./SectionHeading";
 import { SaberLogo } from "../SaberLogo";
+import tommyImg from "@/assets/team-tommy.jpg";
+
+const memberImages: Record<string, string> = {
+  "THOMAS KURI": tommyImg,
+};
 
 export function Team() {
   const { t } = useLanguage();
@@ -9,19 +14,27 @@ export function Team() {
       <div className="mx-auto max-w-[1280px] px-5 md:px-8 py-20 md:py-28">
         <SectionHeading eyebrow={t.team.eyebrow} title={t.team.title} />
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 border-t border-l border-border">
-          {t.team.members.map((m, i) => (
+          {t.team.members.map((m, i) => {
+            const img = memberImages[m.name];
+            return (
             <div key={i} className="border-b border-r border-border p-6">
               <div className="aspect-square border border-border bg-muted/30 flex items-center justify-center mb-4 relative overflow-hidden">
-                <div
-                  aria-hidden
-                  className="absolute inset-0 opacity-10"
-                  style={{
-                    backgroundImage:
-                      "linear-gradient(to right, hsl(var(--foreground)) 1px, transparent 1px), linear-gradient(to bottom, hsl(var(--foreground)) 1px, transparent 1px)",
-                    backgroundSize: "20px 20px",
-                  }}
-                />
-                <SaberLogo variant="mark" size={64} />
+                {img ? (
+                  <img src={img} alt={m.name} className="absolute inset-0 w-full h-full object-cover grayscale" />
+                ) : (
+                  <>
+                    <div
+                      aria-hidden
+                      className="absolute inset-0 opacity-10"
+                      style={{
+                        backgroundImage:
+                          "linear-gradient(to right, hsl(var(--foreground)) 1px, transparent 1px), linear-gradient(to bottom, hsl(var(--foreground)) 1px, transparent 1px)",
+                        backgroundSize: "20px 20px",
+                      }}
+                    />
+                    <SaberLogo variant="mark" size={64} />
+                  </>
+                )}
               </div>
               <div className="font-mono text-[11px] uppercase tracking-[0.18em] text-muted-foreground">
                 {String(i + 1).padStart(2, "0")}

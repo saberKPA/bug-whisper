@@ -47,8 +47,8 @@ export const translations = {
       eyebrow: "Industries",
       title: "CLEAR DATA, BETTER DECISIONS.",
       items: [
-        { name: "Healthcare & Wellness", body: "Reconciliation, risk, and reporting at the speed of regulation." },
-        { name: "Retail", body: "Unify POS, e-commerce, and inventory into one truth." },
+        { name: "Healthcare & Wellness", body: "Sales, inventory, and customer analytics." },
+        { name: "LOGISTICS & DISTRIBUTION", body: "Unify POS, e-commerce, and inventory into one truth." },
         { name: "Healthcare", body: "HIPAA-aware pipelines for clinical and operational data." },
         { name: "Logistics", body: "Track shipments, fleets, and SLAs in real time." },
         { name: "SaaS", body: "Product analytics and revenue ops without the duct tape." },
@@ -151,8 +151,8 @@ export const translations = {
       eyebrow: "Industrias",
       title: "DATOS CLAROS, MEJORES DECISIONES.",
       items: [
-        { name: "Fintech", body: "Reconciliación, riesgo y reportes a la velocidad de la regulación." },
-        { name: "Retail", body: "Unifica POS, e-commerce e inventario en una sola fuente de verdad." },
+        { name: "Fintech", body: "Analítica de ventas, inventario y clientes." },
+        { name: "LOGÍSTICA Y DISTRIBUCIÓN", body: "Unifica POS, e-commerce e inventario en una sola fuente de verdad." },
         { name: "Salud", body: "Pipelines preparados para HIPAA con datos clínicos y operativos." },
         { name: "Logística", body: "Rastrea envíos, flotas y SLAs en tiempo real." },
         { name: "SaaS", body: "Analítica de producto y revenue ops sin parches." },

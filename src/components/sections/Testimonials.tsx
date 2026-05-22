@@ -1,7 +1,7 @@
 import { useLanguage } from "@/contexts/LanguageContext";
 import { SectionHeading } from "./SectionHeading";
 
-const LOGO_NAMES = ["NORTHWIND", "ACME/CO", "HELIX", "MERIDIAN", "VANTAGE", "OBSIDIAN"];
+const LOGO_NAMES = ["THE HEALTH BAG", "ACME/CO", "HELIX", "MERIDIAN", "VANTAGE", "OBSIDIAN"];
 
 export function Testimonials() {
   const { t } = useLanguage();

@@ -165,9 +165,9 @@ export const translations = {
       quotes: [
         {
           quote:
-            "SABER redujo nuestro backlog de ingeniería de datos a la mitad. Por fin confiamos en nuestros dashboards.",
-          author: "Head of Data",
-          company: "Fintech Serie B",
+            "Desde que empecé con Saber, he adquirido las herramientas necesarias para comprender qué pasos financieros debo tomar para crecer. Ha sido una guía clave para identificar qué aspectos debo fortalecer y cuáles debo eliminar dentro de mi emprendimiento. Gracias a la información y claridad que me ha brindado, hoy puedo tomar decisiones más estratégicas y alineadas con el crecimiento de mi negocio.",
+          author: "The Health Bag",
+          company: "Alimentación y Bienestar",
         },
         {
           quote:

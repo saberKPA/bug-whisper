@@ -128,7 +128,7 @@ export const translations = {
         {
           code: "01",
           title: "Extraer",
-          body: "Obtenemos datos de cualquier fuente — bases de datos, APIs SaaS, archivos, streams. Nos encargamos del caos.",
+          body: "Obtenemos datos de cualquier fuente: bases de datos, APIs SaaS, archivos, streams. Nos encargamos del caos.",
         },
         {
           code: "02",

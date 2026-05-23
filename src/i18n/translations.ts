@@ -128,7 +128,7 @@ export const translations = {
         {
           code: "01",
           title: "Extraer",
-          body: "Obtenemos datos de cualquier fuente — bases de datos, APIs SaaS, archivos, streams. Nos encargamos del caos.",
+          body: "Obtenemos datos de cualquier fuente: bases de datos, APIs SaaS, archivos, streams. Nos encargamos del caos.",
         },
         {
           code: "02",
@@ -186,7 +186,7 @@ export const translations = {
     about: {
       eyebrow: "Nosotros",
       title: "Las buenas decisiones empiezan con buenos datos.",
-      body: "SABER nació para cerrar la brecha entre la información cruda y la ventaja competitiva. Construimos la infraestructura que convierte el caos de datos en una visión confiable y en tiempo real de tu empresa — para que los líderes dejen de adivinar y operen con claridad.",
+      body: "SABER nació para cerrar la brecha entre la información cruda y la ventaja competitiva. Construimos la infraestructura que convierte el caos de datos en una visión confiable y en tiempo real de tu empresa, para que los líderes dejen de adivinar y operen con claridad.",
     },
     team: {
       eyebrow: "Equipo",

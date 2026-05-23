@@ -61,7 +61,7 @@ export const translations = {
       quotes: [
         {
           quote:
-            "Desde que empecé con Saber, he adquirido las herramientas necesarias para comprender qué pasos financieros debo tomar para crecer. Ha sido una guía clave para identificar qué aspectos debo fortalecer y cuáles debo eliminar dentro de mi emprendimiento. Gracias a la información y claridad que me ha brindado, hoy puedo tomar decisiones más estratégicas y alineadas con el crecimiento de mi negocio.",
+            "Since I started working with Saber, I've gained the tools I needed to understand what financial steps to take in order to grow. It has been a key guide in identifying which aspects of my business to strengthen and which to eliminate. Thanks to the insight and clarity it has given me, I can now make more strategic decisions aligned with the growth of my business.",
           author: "The Health Bag",
           company: "Food & Wellness",
         },

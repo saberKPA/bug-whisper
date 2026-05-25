@@ -2,9 +2,11 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import { SectionHeading } from "./SectionHeading";
 import { SaberLogo } from "../SaberLogo";
 import tommyImg from "@/assets/team-tommy.jpg";
+import danielImg from "@/assets/team-daniel.jpg";
 
 const memberImages: Record<string, string> = {
   "THOMAS KURI": tommyImg,
+  "DANIEL KURI": danielImg,
 };
 
 export function Team() {
@@ -20,7 +22,7 @@ export function Team() {
             <div key={i} className="border-b border-r border-border p-6">
               <div className="aspect-square border border-border bg-muted/30 flex items-center justify-center mb-4 relative overflow-hidden">
                 {img ? (
-                  <img src={img} alt={m.name} className="absolute inset-0 w-full h-full object-contain bg-black" />
+                  <img src={img} alt={m.name} className="absolute inset-0 w-full h-full object-cover bg-black" />
                 ) : (
                   <>
                     <div

@@ -3,9 +3,11 @@ import { SectionHeading } from "./SectionHeading";
 import { SaberLogo } from "../SaberLogo";
 import tommyImg from "@/assets/team-tommy.jpg";
 import danielImg from "@/assets/team-daniel.svg";
+import sebastianImg from "@/assets/team-sebastian.svg";
 
 const memberImages: Record<string, string> = {
   "THOMAS KURI": tommyImg,
+  "SEBASTIAN PERILLA": sebastianImg,
   "DANIEL KURI": danielImg,
 };
 

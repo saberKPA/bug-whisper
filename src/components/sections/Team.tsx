@@ -2,7 +2,7 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import { SectionHeading } from "./SectionHeading";
 import { SaberLogo } from "../SaberLogo";
 import tommyImg from "@/assets/team-tommy.jpg";
-import danielImg from "@/assets/team-daniel.jpg";
+import danielImg from "@/assets/team-daniel.svg";
 
 const memberImages: Record<string, string> = {
   "THOMAS KURI": tommyImg,

@@ -20,7 +20,7 @@ export function Team() {
             const img = memberImages[m.name];
             return (
             <div key={i} className="border-b border-r border-border p-6">
-              <div className="aspect-square border border-border bg-muted/30 flex items-center justify-center mb-4 relative overflow-hidden">
+              <div className="border border-border bg-muted/30 flex items-center justify-center mb-4 relative overflow-hidden w-full" style={{ aspectRatio: "900 / 1280" }}>
                 {img ? (
                   <img src={img} alt={m.name} className="absolute inset-0 w-full h-full object-contain bg-black" />
                 ) : (

@@ -165,7 +165,7 @@ export const translations = {
       quotes: [
         {
           quote:
-            "Desde que empecé con Saber, he adquirido las herramientas necesarias para comprender qué pasos financieros debo tomar para crecer. Ha sido una guía clave para identificar qué aspectos debo fortalecer y cuáles debo eliminar dentro de mi emprendimiento. Gracias a la información y claridad que me ha brindado, hoy puedo tomar decisiones más estratégicas y alineadas con el crecimiento de mi negocio.",
+            "\"El trabajo de automatización realizado por Saber nos ha permitido acceder y comprender nuestros datos de una manera mucho más eficiente. Además, la forma en que ahora visualizamos la información nos ayudará a impulsar una nueva etapa de crecimiento para nuestra empresa, logrando este desarrollo de manera más ágil, segura y, esperamos, exitosa.\"\n\nRecomiendo ampliamente a cualquier empresa que desee entender con mayor profundidad el funcionamiento de su operación implementar los conocimientos y soluciones adquiridos a través del trabajo con Saber\"",
           author: "The Health Bag",
           company: "Alimentación y Bienestar",
         },

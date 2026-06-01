@@ -1,17 +1,7 @@
 import { useLanguage } from "@/contexts/LanguageContext";
 import { SectionHeading } from "./SectionHeading";
-import thbLogo from "@/assets/the-health-bag.jpg.asset.json";
 
-type LogoItem = { name: string; logoUrl?: string };
-
-const LOGOS: LogoItem[] = [
-  { name: "THE HEALTH BAG", logoUrl: thbLogo.url },
-  { name: "ACME/CO" },
-  { name: "HELIX" },
-  { name: "MERIDIAN" },
-  { name: "VANTAGE" },
-  { name: "OBSIDIAN" },
-];
+const LOGO_NAMES = ["THE HEALTH BAG", "ACME/CO", "HELIX", "MERIDIAN", "VANTAGE", "OBSIDIAN"];
 
 export function Testimonials() {
   const { t } = useLanguage();
@@ -22,20 +12,12 @@ export function Testimonials() {
 
         {/* Logo strip */}
         <div className="grid grid-cols-3 md:grid-cols-6 border-t border-l border-border mb-16">
-          {LOGOS.map((logo) => (
+          {LOGO_NAMES.map((name) => (
             <div
-              key={logo.name}
-              className="border-b border-r border-border h-20 flex items-center justify-center font-mono font-bold tracking-[0.18em] text-[12px] text-muted-foreground hover:text-foreground transition-colors p-3"
+              key={name}
+              className="border-b border-r border-border h-20 flex items-center justify-center font-mono font-bold tracking-[0.18em] text-[12px] text-muted-foreground hover:text-foreground transition-colors"
             >
-              {logo.logoUrl ? (
-                <img
-                  src={logo.logoUrl}
-                  alt={logo.name}
-                  className="max-h-full max-w-full object-contain grayscale opacity-80 hover:opacity-100 transition-opacity"
-                />
-              ) : (
-                logo.name
-              )}
+              {name}
             </div>
           ))}
         </div>
@@ -47,8 +29,8 @@ export function Testimonials() {
               <div className="font-mono text-[11px] uppercase tracking-[0.18em] text-muted-foreground">
                 Q/{String(i + 1).padStart(2, "0")}
               </div>
-              <blockquote className="mt-4 text-[16px] leading-[1.55] text-foreground flex-1 whitespace-pre-line">
-                {q.quote}
+              <blockquote className="mt-4 text-[16px] leading-[1.55] text-foreground flex-1">
+                "{q.quote}"
               </blockquote>
               <div className="mt-6 pt-4 border-t border-border">
                 <div className="font-mono font-bold uppercase text-[12px] tracking-[0.12em]">{q.author}</div>

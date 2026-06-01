@@ -61,7 +61,7 @@ export const translations = {
       quotes: [
         {
           quote:
-            "\"The automation work done by Saber has allowed us to access and understand our data in a far more efficient way. The way we now visualize information will help us drive a new stage of growth for our company, achieving this development more nimbly, securely, and — we hope — successfully.\"\n\nI strongly recommend that any company looking to gain a deeper understanding of how their operation works implement the knowledge and solutions gained through working with Saber.\"",
+            "Since I started working with Saber, I've gained the tools I needed to understand what financial steps to take in order to grow. It has been a key guide in identifying which aspects of my business to strengthen and which to eliminate. Thanks to the insight and clarity it has given me, I can now make more strategic decisions aligned with the growth of my business.",
           author: "The Health Bag",
           company: "Food & Wellness",
         },
@@ -165,7 +165,7 @@ export const translations = {
       quotes: [
         {
           quote:
-            "\"El trabajo de automatización realizado por Saber nos ha permitido acceder y comprender nuestros datos de una manera mucho más eficiente. Además, la forma en que ahora visualizamos la información nos ayudará a impulsar una nueva etapa de crecimiento para nuestra empresa, logrando este desarrollo de manera más ágil, segura y, esperamos, exitosa.\"\n\nRecomiendo ampliamente a cualquier empresa que desee entender con mayor profundidad el funcionamiento de su operación implementar los conocimientos y soluciones adquiridos a través del trabajo con Saber\"",
+            "Desde que empecé con Saber, he adquirido las herramientas necesarias para comprender qué pasos financieros debo tomar para crecer. Ha sido una guía clave para identificar qué aspectos debo fortalecer y cuáles debo eliminar dentro de mi emprendimiento. Gracias a la información y claridad que me ha brindado, hoy puedo tomar decisiones más estratégicas y alineadas con el crecimiento de mi negocio.",
           author: "The Health Bag",
           company: "Alimentación y Bienestar",
         },

@@ -61,7 +61,7 @@ export const translations = {
       quotes: [
         {
           quote:
-            "Since I started working with Saber, I've gained the tools I needed to understand what financial steps to take in order to grow. It has been a key guide in identifying which aspects of my business to strengthen and which to eliminate. Thanks to the insight and clarity it has given me, I can now make more strategic decisions aligned with the growth of my business.",
+            "\"The automation work done by Saber has allowed us to access and understand our data in a far more efficient way. The way we now visualize information will help us drive a new stage of growth for our company, achieving this development more nimbly, securely, and — we hope — successfully.\"\n\nI strongly recommend that any company looking to gain a deeper understanding of how their operation works implement the knowledge and solutions gained through working with Saber.\"",
           author: "The Health Bag",
           company: "Food & Wellness",
         },

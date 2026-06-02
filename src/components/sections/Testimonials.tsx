@@ -31,7 +31,7 @@ export function Testimonials() {
                 <img
                   src={logo.logoUrl}
                   alt={logo.name}
-                  className="h-full w-full object-contain grayscale opacity-80 hover:opacity-100 transition-opacity scale-110"
+                  className="h-full w-full object-contain grayscale opacity-80 hover:opacity-100 transition-opacity scale-110 mx-px px-[35px]"
                 />
               ) : (
                 logo.name

@@ -67,9 +67,9 @@ export const translations = {
         },
         {
           quote:
-            "Replaced six brittle scripts with one pipeline. Onboarding new sources takes hours, not weeks.",
-          author: "VP Engineering",
-          company: "Retail Group",
+            "Since I started with Saber, I have acquired the necessary tools to understand what financial steps I should take to grow. It has been a key guide to identify which aspects I should strengthen and which I should eliminate within my entrepreneurship. Thanks to the information and clarity it has provided me, today I can make more strategic decisions aligned with the growth of my business.",
+          author: "Inperglen",
+          company: "Retail & Commerce",
         },
         {
           quote:

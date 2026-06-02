@@ -1,6 +1,6 @@
 import { useLanguage } from "@/contexts/LanguageContext";
 import { SectionHeading } from "./SectionHeading";
-import thbLogo from "@/assets/the-health-bag.jpg.asset.json";
+import thbLogo from "@/assets/the-health-bag.png.asset.json";
 
 type LogoItem = { name: string; logoUrl?: string };
 
@@ -25,13 +25,13 @@ export function Testimonials() {
           {LOGOS.map((logo) => (
             <div
               key={logo.name}
-              className="border-b border-r border-border h-20 flex items-center justify-center font-mono font-bold tracking-[0.18em] text-[12px] text-muted-foreground hover:text-foreground transition-colors p-3"
+              className="border-b border-r border-border h-20 flex items-center justify-center font-mono font-bold tracking-[0.18em] text-[12px] text-muted-foreground hover:text-foreground transition-colors overflow-hidden"
             >
               {logo.logoUrl ? (
                 <img
                   src={logo.logoUrl}
                   alt={logo.name}
-                  className="max-h-full max-w-full object-contain grayscale opacity-80 hover:opacity-100 transition-opacity"
+                  className="h-full w-full object-contain grayscale opacity-80 hover:opacity-100 transition-opacity scale-110"
                 />
               ) : (
                 logo.name

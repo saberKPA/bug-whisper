@@ -1,11 +1,10 @@
 import { useLanguage } from "@/contexts/LanguageContext";
 import { SectionHeading } from "./SectionHeading";
-import thbLogo from "@/assets/the-health-bag.png.asset.json";
 
 type LogoItem = { name: string; logoUrl?: string };
 
 const LOGOS: LogoItem[] = [
-  { name: "THE HEALTH BAG", logoUrl: thbLogo.url },
+  { name: "THE HEALTH BAG", logoUrl: "/the-health-bag.png" },
   { name: "ACME/CO" },
   { name: "HELIX" },
   { name: "MERIDIAN" },

@@ -3,7 +3,8 @@ import { SectionHeading } from "./SectionHeading";
 import { SaberLogo } from "../SaberLogo";
 import tommyImg from "@/assets/team-tommy.jpg";
 import danielImg from "@/assets/team-daniel.svg";
-import sebastianImg from "@/assets/team-sebastian.svg";
+import sebastianAsset from "@/assets/team-sebastian.svg.asset.json";
+const sebastianImg = sebastianAsset.url;
 
 const memberImages: Record<string, string> = {
   "THOMAS KURI": tommyImg,

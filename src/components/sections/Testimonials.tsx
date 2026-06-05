@@ -5,7 +5,7 @@ type LogoItem = { name: string; logoUrl?: string };
 
 const LOGOS: LogoItem[] = [
   { name: "THE HEALTH BAG", logoUrl: "/the-health-bag.png" },
-  { name: "ACME/CO" },
+  { name: "KICOS", logoUrl: "/__l5e/assets-v1/765f8130-7783-4ceb-948a-71acad05121a/kicos.svg" },
   { name: "HELIX" },
   { name: "MERIDIAN" },
   { name: "VANTAGE" },

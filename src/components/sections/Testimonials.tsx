@@ -1,12 +1,36 @@
+import { useState } from "react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { SectionHeading } from "./SectionHeading";
 
-type LogoItem = { name: string; logoUrl?: string };
+type LogoItem = { name: string; logoUrl: string };
 
 const LOGOS: LogoItem[] = [
   { name: "THE HEALTH BAG", logoUrl: "/__l5e/assets-v1/c9d6e75a-888d-447a-b29d-d949d50757b6/the-health-bag.png" },
   { name: "KICOS", logoUrl: "/__l5e/assets-v1/765f8130-7783-4ceb-948a-71acad05121a/kicos.svg" },
 ];
+
+function TrustedLogo({ logo }: { logo: LogoItem }) {
+  const [failed, setFailed] = useState(false);
+
+  return (
+    <div className="h-20 min-w-40 flex items-center justify-center">
+      {failed ? (
+        <span className="font-mono font-bold uppercase text-sm tracking-[0.12em] text-foreground/80">
+          {logo.name}
+        </span>
+      ) : (
+        <img
+          src={logo.logoUrl}
+          alt={logo.name}
+          loading="lazy"
+          decoding="async"
+          onError={() => setFailed(true)}
+          className="block h-12 max-h-12 w-auto max-w-48 object-contain grayscale opacity-80 hover:opacity-100 transition-opacity"
+        />
+      )}
+    </div>
+  );
+}
 
 export function Testimonials() {
   const { t } = useLanguage();
@@ -18,16 +42,7 @@ export function Testimonials() {
         {/* Logo strip */}
         <div className="flex flex-wrap items-center justify-center gap-8 md:gap-16 mb-16">
           {LOGOS.map((logo) => (
-            <div
-              key={logo.name}
-              className="h-20 flex items-center justify-center"
-            >
-              <img
-                src={logo.logoUrl}
-                alt={logo.name}
-                className="h-full max-h-20 object-contain grayscale opacity-80 hover:opacity-100 transition-opacity"
-              />
-            </div>
+            <TrustedLogo key={logo.name} logo={logo} />
           ))}
         </div>
 

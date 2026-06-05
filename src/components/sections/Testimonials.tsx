@@ -6,10 +6,6 @@ type LogoItem = { name: string; logoUrl?: string };
 const LOGOS: LogoItem[] = [
   { name: "THE HEALTH BAG", logoUrl: "/the-health-bag.png" },
   { name: "KICOS", logoUrl: "/__l5e/assets-v1/765f8130-7783-4ceb-948a-71acad05121a/kicos.svg" },
-  { name: "HELIX" },
-  { name: "MERIDIAN" },
-  { name: "VANTAGE" },
-  { name: "OBSIDIAN" },
 ];
 
 export function Testimonials() {
@@ -20,21 +16,17 @@ export function Testimonials() {
         <SectionHeading eyebrow={t.testimonials.eyebrow} title={t.testimonials.title} />
 
         {/* Logo strip */}
-        <div className="grid grid-cols-3 md:grid-cols-6 border-t border-l border-border mb-16">
+        <div className="flex flex-wrap items-center justify-center gap-8 md:gap-16 mb-16">
           {LOGOS.map((logo) => (
             <div
               key={logo.name}
-              className="border-b border-r border-border h-20 flex items-center justify-center font-mono font-bold tracking-[0.18em] text-[12px] text-muted-foreground hover:text-foreground transition-colors overflow-hidden"
+              className="h-20 flex items-center justify-center"
             >
-              {logo.logoUrl ? (
-                <img
-                  src={logo.logoUrl}
-                  alt={logo.name}
-                  className="h-full w-full object-contain grayscale opacity-80 hover:opacity-100 transition-opacity scale-110 mx-px px-[35px]"
-                />
-              ) : (
-                logo.name
-              )}
+              <img
+                src={logo.logoUrl}
+                alt={logo.name}
+                className="h-full max-h-20 object-contain grayscale opacity-80 hover:opacity-100 transition-opacity"
+              />
             </div>
           ))}
         </div>

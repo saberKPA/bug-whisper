@@ -1,11 +1,13 @@
 import { useLanguage } from "@/contexts/LanguageContext";
 import { SectionHeading } from "./SectionHeading";
+import healthBagAsset from "@/assets/the-health-bag.png.asset.json";
+import kicosAsset from "@/assets/kicos.svg.asset.json";
 
 type LogoItem = { name: string; logoUrl?: string };
 
 const LOGOS: LogoItem[] = [
-  { name: "THE HEALTH BAG", logoUrl: "/__l5e/assets-v1/c9d6e75a-888d-447a-b29d-d949d50757b6/the-health-bag.png" },
-  { name: "KICOS", logoUrl: "/__l5e/assets-v1/765f8130-7783-4ceb-948a-71acad05121a/kicos.svg" },
+  { name: "THE HEALTH BAG", logoUrl: healthBagAsset.url },
+  { name: "KICOS", logoUrl: kicosAsset.url },
 ];
 
 export function Testimonials() {

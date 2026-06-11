@@ -22,7 +22,6 @@ export function SiteHeader() {
     { href: "#services", label: t.nav.services },
     { href: "#industries", label: t.nav.industries },
     { href: "#about", label: t.nav.about },
-    { href: "#team", label: t.nav.team },
     { href: "#contact", label: t.nav.contact },
   ];
 

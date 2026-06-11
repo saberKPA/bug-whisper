@@ -71,12 +71,6 @@ export const translations = {
           author: "Kicos",
           company: "Retail & Commerce",
         },
-        {
-          quote:
-            "The observability alone paid for the engagement. We catch issues before customers do.",
-          author: "CTO",
-          company: "Logistics Platform",
-        },
       ],
     },
     about: {
@@ -174,12 +168,6 @@ export const translations = {
             "El trabajo de automatización realizado por Saber nos ha permitido acceder y comprender nuestros datos de una manera mucho más eficiente. Además, la forma en que ahora visualizamos la información nos ayudará a impulsar una nueva etapa de crecimiento para nuestra empresa, logrando este desarrollo de manera más ágil, segura y, esperamos, exitosa.\n\nRecomiendo ampliamente a cualquier empresa que desee entender con mayor profundidad el funcionamiento de su operación implementar los conocimientos y soluciones adquiridos a través del trabajo con Saber.",
           author: "Kicos",
           company: "Retail y comercio",
-        },
-        {
-          quote:
-            "Solo la observabilidad ya pagó el proyecto. Detectamos problemas antes que los clientes.",
-          author: "CTO",
-          company: "Plataforma de Logística",
         },
       ],
     },

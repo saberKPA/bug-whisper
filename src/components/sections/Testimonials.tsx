@@ -32,7 +32,7 @@ export function Testimonials() {
         </div>
 
         {/* Quotes */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-px bg-border border border-border">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-border border border-border">
           {t.testimonials.quotes.map((q, i) => (
             <div key={i} className="bg-background p-7 flex flex-col">
               <div className="font-mono text-[11px] uppercase tracking-[0.18em] text-muted-foreground">

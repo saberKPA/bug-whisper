@@ -20,12 +20,12 @@ export function Testimonials() {
           {LOGOS.map((logo) => (
             <div
               key={logo.name}
-              className="h-24 flex items-center justify-center"
+              className="h-20 flex items-center justify-center"
             >
               <img
                 src={logo.logoUrl}
                 alt={logo.name}
-                className="h-full max-h-24 object-contain opacity-90 hover:opacity-100 transition-opacity dark:invert"
+                className="h-full max-h-20 object-contain grayscale opacity-80 hover:opacity-100 transition-opacity"
               />
             </div>
           ))}

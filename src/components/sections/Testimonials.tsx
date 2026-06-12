@@ -27,7 +27,7 @@ export function Testimonials() {
               <img
                 src={logo.logoUrl}
                 alt={logo.name}
-                className={`h-full max-h-20 object-contain opacity-80 hover:opacity-100 transition-opacity ${logo.name === "KICOS" ? "grayscale invert dark:invert-0" : "grayscale"}`}
+                className={`h-full max-h-20 object-contain opacity-80 hover:opacity-100 transition-opacity ${logo.name === "KICOS" ? "grayscale invert dark:invert-0" : ""}`}
               />
             </div>
           ))}

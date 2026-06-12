@@ -1,6 +1,6 @@
 import { useLanguage } from "@/contexts/LanguageContext";
 import { SectionHeading } from "./SectionHeading";
-import healthBagAsset from "@/assets/the-health-bag.png.asset.json";
+import healthBagAsset from "@/assets/the-health-bag-new.png.asset.json";
 import kicosAsset from "@/assets/kicos-new.svg.asset.json";
 
 type LogoItem = { name: string; logoUrl?: string };

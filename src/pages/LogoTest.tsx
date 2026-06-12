@@ -3,7 +3,7 @@ import kicosAsset from "@/assets/kicos-v3.svg.asset.json";
 export default function LogoTest() {
   return (
     <div className="min-h-screen flex flex-col">
-      <header className="border-b border-border px-6 ="5 py-4 font-mono text-sm uppercase tracking-widest">
+      <header className="border-b border-border px-6 py-4 font-mono text-sm uppercase tracking-widest">
         Logo Visibility Test
       </header>
 

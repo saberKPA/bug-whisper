@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ThemeProvider } from "next-themes";
 import { LanguageProvider } from "@/contexts/LanguageContext";
 import Home from "./pages/Home";
+import LogoTest from "./pages/LogoTest";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();

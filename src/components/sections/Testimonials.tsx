@@ -1,7 +1,7 @@
 import { useLanguage } from "@/contexts/LanguageContext";
 import { SectionHeading } from "./SectionHeading";
 import healthBagAsset from "@/assets/the-health-bag-new.png.asset.json";
-import kicosAsset from "@/assets/kicos-new.svg.asset.json";
+import kicosAsset from "@/assets/kicos-v3.svg.asset.json";
 
 type LogoItem = { name: string; logoUrl?: string };
 
@@ -27,7 +27,7 @@ export function Testimonials() {
               <img
                 src={logo.logoUrl}
                 alt={logo.name}
-                className="h-full max-h-20 object-contain opacity-80 hover:opacity-100 transition-opacity"
+                className={`h-full max-h-20 object-contain opacity-80 hover:opacity-100 transition-opacity ${logo.name === "KICOS" ? "grayscale invert dark:invert-0" : ""}`}
               />
             </div>
           ))}

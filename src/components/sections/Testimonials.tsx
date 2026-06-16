@@ -17,21 +17,6 @@ export function Testimonials() {
       <div className="mx-auto max-w-[1280px] px-5 md:px-8 py-20 md:py-28">
         <SectionHeading eyebrow={t.testimonials.eyebrow} title={t.testimonials.title} />
 
-        {/* Logo strip */}
-        <div className="flex flex-wrap items-center justify-center gap-8 md:gap-16 mb-16">
-          {LOGOS.map((logo) => (
-            <div
-              key={logo.name}
-              className="h-20 flex items-center justify-center"
-            >
-              <img
-                src={logo.logoUrl}
-                alt={logo.name}
-                className={`h-full max-h-20 object-contain opacity-80 hover:opacity-100 transition-opacity ${logo.name === "KICOS" ? "invert dark:invert-0" : ""}`}
-              />
-            </div>
-          ))}
-        </div>
 
         {/* Quotes */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-border border border-border">

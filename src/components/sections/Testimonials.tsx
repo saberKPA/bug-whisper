@@ -1,14 +1,7 @@
 import { useLanguage } from "@/contexts/LanguageContext";
 import { SectionHeading } from "./SectionHeading";
-import healthBagAsset from "@/assets/the-health-bag-new.png.asset.json";
-import kicosAsset from "@/assets/kicos-v3.svg.asset.json";
-
-type LogoItem = { name: string; logoUrl?: string };
-
-const LOGOS: LogoItem[] = [
-  { name: "THE HEALTH BAG", logoUrl: healthBagAsset.url },
-  { name: "KICOS", logoUrl: kicosAsset.url },
-];
+import thbAsset from "@/assets/thb.jpg.asset.json";
+import kicosAsset from "@/assets/kicos.svg.asset.json";
 
 export function Testimonials() {
   const { t } = useLanguage();
@@ -17,8 +10,21 @@ export function Testimonials() {
       <div className="mx-auto max-w-[1280px] px-5 md:px-8 py-20 md:py-28">
         <SectionHeading eyebrow={t.testimonials.eyebrow} title={t.testimonials.title} />
 
+        {/* Client logos */}
+        <div className="mt-10 mb-16 flex flex-wrap items-center justify-center gap-12 md:gap-24 py-8 border-y border-border">
+          <img
+            src={thbAsset.url}
+            alt="The Health Bag"
+            className="h-16 md:h-20 w-auto object-contain grayscale opacity-80 mix-blend-multiply dark:mix-blend-screen dark:invert hover:opacity-100 transition-opacity"
+          />
+          <img
+            src={kicosAsset.url}
+            alt="Kicos"
+            className="h-16 md:h-20 w-auto object-contain grayscale opacity-80 invert dark:invert-0 hover:opacity-100 transition-opacity"
+          />
+        </div>
 
-        {/* Quotes */}
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-border border border-border">
           {t.testimonials.quotes.map((q, i) => (
             <div key={i} className="bg-background p-7 flex flex-col">

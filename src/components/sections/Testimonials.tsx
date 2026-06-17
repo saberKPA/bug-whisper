@@ -1,7 +1,7 @@
 import { useLanguage } from "@/contexts/LanguageContext";
 import { SectionHeading } from "./SectionHeading";
-import thbAsset from "@/assets/thb.jpg.asset.json";
-import kicosAsset from "@/assets/kicos.svg.asset.json";
+import thbAsset from "@/assets/thb.jpg";
+import kicosAsset from "@/assets/kicos.svg";
 
 export function Testimonials() {
   const { t } = useLanguage();

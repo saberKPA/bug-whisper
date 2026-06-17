@@ -1,7 +1,7 @@
 import { useLanguage } from "@/contexts/LanguageContext";
 import { SectionHeading } from "./SectionHeading";
 // import thbAsset from "@/assets/thb.jpg";
-import kicosAsset from "@/assets/kicos.svg";
+// import kicosAsset from "@/assets/kicos.svg";
 
 export function Testimonials() {
   const { t } = useLanguage();
@@ -18,7 +18,7 @@ export function Testimonials() {
             className="h-16 md:h-20 w-auto object-contain grayscale opacity-80 mix-blend-multiply dark:mix-blend-screen dark:invert hover:opacity-100 transition-opacity"
           />
           <img
-            src={kicosAsset}
+            src={"/kicos.svg"}
             alt="Kicos"
             className="h-16 md:h-20 w-auto object-contain grayscale opacity-80 invert dark:invert-0 hover:opacity-100 transition-opacity"
           />

@@ -13,12 +13,12 @@ export function Testimonials() {
         {/* Client logos */}
         <div className="mt-10 mb-16 flex flex-wrap items-center justify-center gap-12 md:gap-24 py-8 border-y border-border">
           <img
-            src={"/thb.jpeg"}
+            src={"/TTHB.png"}
             alt="The Health Bag"
             className="h-16 md:h-20 w-auto object-contain grayscale opacity-80 mix-blend-multiply dark:mix-blend-screen dark:invert hover:opacity-100 transition-opacity"
           />
           <img
-            src={"/newKicos.svg"}
+            src={"/kicos.svg"}
             alt="Kicos"
             className="h-16 md:h-20 w-auto object-contain grayscale opacity-80 invert dark:invert-0 hover:opacity-100 transition-opacity"
           />

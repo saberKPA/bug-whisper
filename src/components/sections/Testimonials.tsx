@@ -18,7 +18,7 @@ export function Testimonials() {
             className="h-16 md:h-20 w-auto object-contain grayscale opacity-80 mix-blend-multiply dark:mix-blend-screen dark:invert hover:opacity-100 transition-opacity"
           />
           <img
-            src={"/kicos.svg"}
+            src={"/newKicos.svg"}
             alt="Kicos"
             className="h-16 md:h-20 w-auto object-contain grayscale opacity-80 invert dark:invert-0 hover:opacity-100 transition-opacity"
           />

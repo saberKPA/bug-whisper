@@ -92,7 +92,7 @@ export const translations = {
       title: "Ready to see your data clearly?",
       body: "Tell us about your stack and your goals. We'll respond within one business day.",
       cta: "CONTACT US",
-      email: "tkuri@saberetl.com",
+      email: "hello@saberetl.com",
     },
     footer: {
       tagline: "TURNING INFORMATION INTO ADVANTAGE",
@@ -190,7 +190,7 @@ export const translations = {
       title: "¿Listo para ver tus datos con claridad?",
       body: "Cuéntanos sobre tu stack y tus objetivos. Respondemos en un día hábil.",
       cta: "CONTÁCTANOS",
-      email: "tkuri@saberetl.com",
+      email: "hello@saberetl.com",
     },
     footer: {
       tagline: "CONVIRTIENDO INFORMACIÓN EN VENTAJA",

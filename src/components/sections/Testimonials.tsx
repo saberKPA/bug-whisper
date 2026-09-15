@@ -1,6 +1,5 @@
 import { useLanguage } from "@/contexts/LanguageContext";
 import { SectionHeading } from "./SectionHeading";
-import vfitAsset from "@/assets/vfit.svg.asset.json";
 
 export function Testimonials() {
   const { t } = useLanguage();
@@ -22,7 +21,7 @@ export function Testimonials() {
             className="h-16 md:h-20 w-auto object-contain grayscale opacity-80 invert dark:invert-0 hover:opacity-100 transition-opacity"
           />
           <img
-            src={vfitAsset.url}
+            src={"/vfit.svg"}
             alt="Ventura Fitness"
             className="h-16 md:h-20 w-auto object-contain grayscale opacity-80 dark:invert hover:opacity-100 transition-opacity"
           />

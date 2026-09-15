@@ -23,7 +23,7 @@ export function Testimonials() {
           <img
             src={"/vfit.svg"}
             alt="Ventura Fitness"
-            className="h-16 md:h-20 w-auto object-contain grayscale opacity-80 dark:invert hover:opacity-100 transition-opacity"
+            className="h-16 md:h-20 w-auto object-contain grayscale opacity-80 dark:opacity-100 dark:[filter:grayscale(1)_invert(1)_brightness(1.4)] hover:opacity-100 transition-opacity"
           />
         </div>
 

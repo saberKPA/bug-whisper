@@ -71,6 +71,12 @@ export const translations = {
           author: "Kicos",
           company: "Retail & Commerce",
         },
+        {
+          quote:
+            "SABER has shown professionalism, commitment, and a real ability to understand the needs of Ventura Fitness, giving us clear and useful solutions that improve how we manage the business and make decisions. It has been an excellent experience working with their team.",
+          author: "Ventura Fitness",
+          company: "Fitness & Wellness",
+        },
       ],
     },
     about: {
@@ -168,6 +174,12 @@ export const translations = {
             "El trabajo de automatización realizado por Saber nos ha permitido acceder y comprender nuestros datos de una manera mucho más eficiente. Además, la forma en que ahora visualizamos la información nos ayudará a impulsar una nueva etapa de crecimiento para nuestra empresa, logrando este desarrollo de manera más ágil, segura y, esperamos, exitosa.\n\nRecomiendo ampliamente a cualquier empresa que desee entender con mayor profundidad el funcionamiento de su operación implementar los conocimientos y soluciones adquiridos a través del trabajo con Saber.",
           author: "Kicos",
           company: "Retail y comercio",
+        },
+        {
+          quote:
+            "SABER ha demostrado profesionalismo, compromiso y una gran capacidad para entender las necesidades de Ventura Fitness, brindándonos soluciones claras y útiles para mejorar nuestra gestión y toma de decisiones. Ha sido una excelente experiencia trabajar con su equipo.",
+          author: "Ventura Fitness",
+          company: "Fitness y Bienestar",
         },
       ],
     },

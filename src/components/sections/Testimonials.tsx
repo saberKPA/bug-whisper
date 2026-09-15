@@ -1,7 +1,6 @@
 import { useLanguage } from "@/contexts/LanguageContext";
 import { SectionHeading } from "./SectionHeading";
-// import thbAsset from "@/assets/thb.jpg";
-// import kicosAsset from "@/assets/kicos.svg";
+import vfitAsset from "@/assets/vfit.svg.asset.json";
 
 export function Testimonials() {
   const { t } = useLanguage();
@@ -22,10 +21,15 @@ export function Testimonials() {
             alt="Kicos"
             className="h-16 md:h-20 w-auto object-contain grayscale opacity-80 invert dark:invert-0 hover:opacity-100 transition-opacity"
           />
+          <img
+            src={vfitAsset.url}
+            alt="Ventura Fitness"
+            className="h-16 md:h-20 w-auto object-contain grayscale opacity-80 dark:invert hover:opacity-100 transition-opacity"
+          />
         </div>
 
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-border border border-border">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-px bg-border border border-border">
           {t.testimonials.quotes.map((q, i) => (
             <div key={i} className="bg-background p-7 flex flex-col">
               <div className="font-mono text-[11px] uppercase tracking-[0.18em] text-muted-foreground">
